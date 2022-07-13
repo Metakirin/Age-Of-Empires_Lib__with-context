@@ -1,0 +1,13 @@
+.startNav__div {
+  display: flex;
+  justify-content: center;
+
+  & li {
+    display: inline;
+    margin-right: 30px;
+
+    & a {
+      color: black;
+    }
+  }
+}
